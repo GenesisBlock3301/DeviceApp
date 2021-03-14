@@ -37,6 +37,7 @@ const AddDevice = () => {
     // console.log(device)
     return (
         <div className="container">
+            <h1 className="text-info text-center">Add Device</h1>
             <form onSubmit={e => onSubmit(e)} className="mt-5">
                 <div className="mb-3">
                     <input type="text" value={name} name="name" placeholder="Device Name" onChange={e => onChange(e)}
